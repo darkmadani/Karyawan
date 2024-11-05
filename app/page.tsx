@@ -21,7 +21,7 @@ export default async function Home() {
     <section>
       <h1 className="text-2xl font-bold mb-6">Sistem Informasi Manajemen Karyawan</h1>
       <div className="flex flex-wrap gap-4 shadow-lg p-4 bg-base-200 rounded-lg mb-6">
-        <h2 className="text-lg font-semibold">Admin Dashboard</h2>
+        <h2 className="text-lg font-semibold">Difa Dashboard</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4"></div>
       <div className="join join-vertical lg:join-horizontal shadow-md w-full">
