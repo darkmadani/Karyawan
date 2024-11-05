@@ -64,7 +64,7 @@ export async function updateEmployee({
 // function to fetch all employeees
 export async function fetchEmployees() {
   try {
-    await connectToDB();
+    connectToDB();
     const employeesData = await Employee.find().sort({
       date: "desc",
     }).lean();
